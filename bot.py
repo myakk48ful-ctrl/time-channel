@@ -39,8 +39,8 @@ from aiogram.types import FSInputFile
 #   ADMIN_IDS = آیدی عددی ادمین (می‌توانی چند آیدی را با ویرگول جدا کنی)
 #
 # این مقدارها فقط "پیش‌فرض" هستند و اگر متغیر محیطی ست نکنی استفاده می‌شوند:
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "TOKEN")
-_raw_admins = os.environ.get("ADMIN_IDS", "123456789")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8540326761:AAGxzuG2EHTrQW1OswL8qY-zdk2qjtbd0wE")
+_raw_admins = os.environ.get("ADMIN_IDS", "8495518263")
 ADMIN_IDS = []
 for _part in str(_raw_admins).split(","):
     _part = _part.strip()
